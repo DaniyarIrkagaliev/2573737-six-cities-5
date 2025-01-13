@@ -10,6 +10,7 @@ import React from 'react';
 
 export const App: React.FC = () => {
   useInitApp();
+
   const authorizationStatus = useAppSelector((state) => state.authorizationStatus);
   return (
     <BrowserRouter>
